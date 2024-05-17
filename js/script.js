@@ -2,8 +2,7 @@
 const buttonEl = document.querySelector("header button")
 console.log(buttonEl)
 const containerEl = document.querySelector("section.container")
-buttonEl.addEventListener("click" , function() {
-    
+buttonEl.addEventListener("click"  , function() {
     for (let i = 1 ; i <= 100 ; i++){
     const divEl = document.createElement("div")
     containerEl.appendChild(divEl)
@@ -16,6 +15,6 @@ buttonEl.addEventListener("click" , function() {
         numbers.classList.add("numbers")
 
     });
-}});
+}} , { once: true });
 
 

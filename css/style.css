@@ -31,10 +31,13 @@ section.container{
 }
 
 .square{
-    width: calc(100% / 10 - 4px) ;
-    height: calc(100% / 10 - 4px);
+    width: calc(100% / 10 ) ;
+    height: calc(100% / 10);
     background-color: chartreuse;
     border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .active{
     background-color: azure;
@@ -42,11 +45,9 @@ section.container{
 
 span{
     color: black;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
+    font-size: 25px;
 }
-span.numers{
-    color: red;
+
+span.numbers{
+    color: magenta
 }

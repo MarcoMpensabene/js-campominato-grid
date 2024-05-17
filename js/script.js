@@ -13,6 +13,7 @@ buttonEl.addEventListener("click"  , function() {
     divEl.addEventListener("click" , function() {
         divEl.classList.add("active")
         numbers.classList.add("numbers")
+        console.log(i)
 
     });
 }} , { once: true });

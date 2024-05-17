@@ -12,7 +12,8 @@ header{
     margin-bottom: 2rem;
 }
 
-div.logo{
+div.logo,
+div.input{
     display: flex;
 }
 
@@ -32,13 +33,23 @@ section.container{
 }
 
 .square{
-    width: calc(100% / 10 ) ;
-    height: calc(100% / 10);
     background-color: chartreuse;
     border: 2px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.large{
+    width: calc(100% / 10 ) ;
+    height: calc(100% / 10);
+}
+.medium{
+    width: calc(100% / 9 ) ;
+    height: calc(100% / 9);
+}
+.small{
+    width: calc(100% / 7 ) ;
+    height: calc(100% / 7);
 }
 .active{
     background-color: rgb(8, 190, 223);

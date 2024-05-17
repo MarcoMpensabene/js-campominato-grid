@@ -15,7 +15,7 @@ buttonEl.addEventListener("click"  , function() {
         numbers.classList.add("numbers")
         console.log(i)
 
-    });
+    },{ once: true });
 }} , { once: true });
 
 
